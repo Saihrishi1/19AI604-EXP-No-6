@@ -1,7 +1,7 @@
 ## Experiment 6 – Create an Application to Demonstrate Vector Collection Object  
 
-<H3>ENTER YOUR NAME:</H3>  
-<H3>ENTER YOUR REGISTER NO:</H3>  
+<H3>ENTER YOUR NAME: Sai Hrishi M</H3>  
+<H3>ENTER YOUR REGISTER NO: 212224240140</H3>  
 <H3>EX.NO.4</H3>  
 <H3>DATE:</H3>  
 
@@ -38,11 +38,44 @@ STEP 8: End the program. <BR>
 
 ## PROGRAM:  
 ```
-// Type Your Code
+
+fn main() {
+    let mut numbers: Vec<i32> = Vec::new();
+
+    numbers.push(10);
+    numbers.push(20);
+    numbers.push(30);
+    numbers.push(40);
+    numbers.push(50);
+
+    println!("Elements of the vector:");
+    for num in &numbers {
+        println!("{}", num);
+    }
+
+
+    println!("\nAccessing elements:");
+    println!("First element (using index): {}", numbers[0]);
+    
+    match numbers.get(2) {
+        Some(value) => println!("Third element (using get): {}", value),
+        None => println!("No element found at index 2"),
+    }
+
+    numbers.pop();
+    println!("\nAfter removing the last element:");
+    for num in &numbers {
+        println!("{}", num);
+    }
+}
+
 
 ```
-##OUTPUT:
+## OUTPUT:
+
+<img width="915" height="513" alt="image" src="https://github.com/user-attachments/assets/2570d362-562e-43fe-9175-2b56e7674e50" />
 
 
+## RESULT:
 
-##RESULT:
+Thus we have successfully created a Rust application that demonstrates the use of the Vector (Vec) collection object.
