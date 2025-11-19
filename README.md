@@ -3,7 +3,7 @@
 <H3>ENTER YOUR NAME: Sai Hrishi M</H3>  
 <H3>ENTER YOUR REGISTER NO: 212224240140</H3>  
 <H3>EX.NO.4</H3>  
-<H3>DATE:</H3>  
+<H3>DATE: 30/10/2025</H3>  
 
 <H1 ALIGN =CENTER> Demonstrating Vector Collection in Rust </H1>  
 
